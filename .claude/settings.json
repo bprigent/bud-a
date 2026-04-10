@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd frontend && npm *)",
+      "Bash(cd backend && python *)",
+      "Bash(cd backend && pytest *)",
+      "Bash(git status)",
+      "Bash(git diff *)",
+      "Bash(git log *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(ls *)"
+    ],
+    "deny": [
+      "Bash(rm -rf *)",
+      "Bash(* --force *)",
+      "Bash(git push --force *)"
+    ]
+  }
+}

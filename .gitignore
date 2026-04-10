@@ -1,0 +1,34 @@
+# Financial data (never commit)
+data/
+
+# Backups
+backups/
+
+# Encryption keys
+*.pem
+*.key
+
+# Claude Code local settings
+.claude/settings.local.json
+.claude/agent-memory-local/
+.claude/channels/
+.claude/skills/expense-matching/SKILL.md
+
+# Node
+node_modules/
+frontend/dist/
+
+# Python
+__pycache__/
+*.pyc
+.coverage
+backend/venv/
+backend/.env
+frontend/.env
+frontend/.env*.local
+
+# CSV lock files
+*.csv.lock
+
+# OS
+.DS_Store
