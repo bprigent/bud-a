@@ -8,34 +8,40 @@
 
 ### "This Month" tab
 
-This is the homepage. Here, you can create widgets to show categories of expenses. On mine for example, I have all my revenue, my spending budget, and saving budget. This takes the data from your operations, so you can really make it your own. If what you track is a budget (you created in the budget page), you'll see a progress bar telling you how much of the total budegt you've spend. On the right side, there is also a side panel to list your bank accounts.
+This is the homepage. Here, you can create widgets to show categories of expenses. On mine for example, I have all my revenue, my spending budget, and saving budget. 
+
+This takes the data from your operations list, so you can really make it your own. 
+
+If you track a budget you created in the budget page, you'll see a progress bar. On the right side, there is also a side panel to list your bank accounts.
 
 ![Dashboard](docs/screenshots/home.png)
 
-### Operations (Expenses, Income & Transfers)
+### Budgets tab
 
-Add, edit, and delete transactions. Each entry includes a date, label, amount, currency, category, family member, and bank account. Supports three types: expense, income, and money movement (transfers between accounts). Filter by month.
-
-### Study
-
-Category spending broken down by month with stacked bar charts per member. Shows average monthly spend, budget target, and cumulative gap vs. budget for each category. Filter by budget plan, date range, or member. Click any bar to drill into the matching transactions.
-
-![Study](docs/screenshots/study.png)
-
-### Budgets
-
-Set spending limits per category. Organize budgets into named plans (e.g. a "Household" plan and a "Savings plan"). The app tracks actual vs. budgeted amounts with progress bars. Budget history is preserved — updating a budget closes the old row and creates a new one.
+This is where you create your budgets. You can have how many you want. I have 2: savings and spendings. You get to name them, then select categories and amounts. Budget history is preserved, because you can change the budget amounts over time, and it wont forget your past budget. Meaning: if your food budget goes up and you update it in May, it will only go up in May.
 
 ![Budgets](docs/screenshots/budgets.png)
 
-### Savings
+### Study
 
-Dedicated view for savings accounts — track balances separately from day-to-day checking accounts.
+In this tab, each category is broken down by month and family member. So you can see how much you spend over time on specific goods and services. The charts are clickable and lead to the oeprations page with the correct filter. 
+
+For example: if you look at how much your husband spent on surfing equipment in july, you just click on the bar chart and it will show you the list of operation. 
+
+![Study](docs/screenshots/study.png)
+
+### Savings tab
+
+Dedicated view for looking at your savings accounts. It tracks individual or commulated balances over time. IT basically answers the question: am I saving money over time?
+
+### Operations tab
+
+Add, edit, and delete transactions. Each entry includes a date, label, amount, currency, category, family member, and bank account. Supports three types: expense, income, and money movement (transfers between accounts). Filter by month.
 
 
 ### Settings
 
-Central settings page with links to Members, Accounts, and Categories management. Manage spending and income categories with emoji icons and descriptions used for AI auto-categorization. Manage bank accounts — checking, savings, credit, and investment. Upload bank logos and track opening and statement balances. Manage family members with color assignments used in charts and breakdowns.
+Central settings page with links to Members, Accounts, and Categories management. Manage spending and income categories with emoji icons and descriptions used for AI auto-categorization. Manage bank accounts. Manage family members with color assignments used in charts and breakdowns.
 
 ![Settings](docs/screenshots/settings.png)
 
