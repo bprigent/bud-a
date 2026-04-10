@@ -1,4 +1,4 @@
-# Bud-a: AI-Powered family budget app
+# Bud-a: Opensource AI budget app for families
 
 **What is it:** A household budgeting app that sits on Claude Code and runs on your computer. It combines a web UI, a Python API, and Anthropic AI agents. It tracks spending, parses receipts, and generates financial insights. 
 
